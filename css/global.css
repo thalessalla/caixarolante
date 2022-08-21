@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2e2e2e;
+  font-size: 18px;
+  background: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+p,
+dd {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  /*display: block;*/
+}
+
+h3 {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+/*Divisores de texto*/
+
+.divisor {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.divisor-central {
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+/*botão secundario de saiba mais*/
+
+.botao-secundario {
+  font-size: 22px;
+  padding: 18px 64px;
+  border: 2px solid #0f5560;
+  color: #0f5560;
+  text-decoration: none;
+}
+
+.botao-secundario {
+  transition: background-color 800ms;
+}
+
+.botao-secundario:hover {
+  background-color: #62c9d9;
+  border: none;
+  color: #141414;
+  border: 2px solid #141414;
+}
+
+/*botão de fazer inscrição MENU*/
+
+.fazer-inscricao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 24px;
+  color: #e5ebff;
+  font-size: 1rem;
+  background: #308390;
+  border: none;
+}
+
+.fazer-inscricao:hover {
+  transition: background-color 600ms;
+  background: #f6832d;
+  color: #525252;
+}
+
+/* Botão parte final*/
+
+.inscricao-botao {
+  align-items: center;
+  padding: 16px 32px;
+  gap: 24px;
+  color: #e5ebff;
+  font-size: 1rem;
+  background: #308390;
+  border: none;
+  text-decoration: none;
+}
+
+.inscricao-botao {
+  transition: background-color 600ms;
+}
+
+.inscricao-botao:hover {
+  background: #f6832d;
+  color: #525252;
+}
